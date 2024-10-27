@@ -6,9 +6,11 @@ import Products from './Pages/Products'
 import Singleproduct from './Pages/Singleproduct'
 import Cart from './Pages/Cart'
 import Errorpage from './Pages/Errorpage'
+import Navbar from './layout/Navbar'
 
 function App() {
   return <Router>
+    <Navbar/>
     <Routes>
       <Route path="/" element={ <Products/>}/>
       <Route path="/contact" element={ <Contact/>}/>
